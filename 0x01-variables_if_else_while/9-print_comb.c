@@ -1,10 +1,9 @@
 #include <stdio.h>
-
 /**
-* main - Prints a series of numbers with commas
-* 
-* Return: Always (Success);
-*/
+ *main - Prints a series of numbers with commas
+ *
+ *Return: Always (Success);
+ */
 int main(void)
 {
 	int c;
@@ -19,8 +18,8 @@ int main(void)
 			putchar(' ');
 		}
 	}
-	
-	putchar('\n');
 
+	putchar('\n');
+	
 	return (0);
 }
