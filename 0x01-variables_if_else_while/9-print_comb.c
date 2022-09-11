@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <unistd.h>
 
 /**
-* main - Entry point
-* Description: prints numbers
-* Return: Always 0 (success)
+* main - Prints a series of numbers with commas
+*
+* Return: Always (Success);
 */
 int main(void)
 {
@@ -14,7 +13,7 @@ int main(void)
 	{
 		putchar(c);
 
-		if (c != '9');
+		if (c != '9')
 		{
 			putchar(',');
 			putchar(' ');
