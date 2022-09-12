@@ -1,10 +1,10 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
-* main - print possible combination of two 2-digit
-* numbers
-* 
-* Return: Always 0 (success);
+* main - Entry point
+* Description: prints all possible combination of 2-digit numbers
+* Return: Always 0 (success)
 */
 int main(void)
 {
@@ -25,10 +25,11 @@ int main(void)
 						putchar(' ');
 						putchar(k);
 						putchar(j);
-
+						
 						if (c + i + k + j == 227 && c == 57)
+						{
 						break;
-						{}
+						}
 						else
 						{
 						putchar(',');
@@ -39,7 +40,6 @@ int main(void)
 			}
 		}
 	}
-
 	putchar('\n');
 	return (0);
 }
