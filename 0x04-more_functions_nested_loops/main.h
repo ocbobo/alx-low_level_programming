@@ -1,5 +1,11 @@
-#ifndef _HOLBERTON_H_
-#define _HOLBERTON_H_
+#ifndef MAIN_H
+#define MAIN_H
+
+/**
+ * main - head files for prototypes
+ * void prototypes (void)
+ * int prototypes (int)
+ */
 
 int _isupper(int c);
 int _isdigit(int c);
@@ -14,6 +20,4 @@ void print_square(int size);
 void print_triangle(int size);
 void print_number(int n);
 
-
-
-#endif
+#endif /* MAIN_H */
